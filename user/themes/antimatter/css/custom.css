@@ -1,0 +1,19 @@
+#footer {
+    bottom: 0px;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background: #333;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+}
+
+.fullpage h1 {
+    font-size: 3.5em;
+}
