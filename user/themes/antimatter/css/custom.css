@@ -1,4 +1,4 @@
-#footer {
+/* #footer {
     bottom: 0px;
 }
 
@@ -14,6 +14,57 @@
     padding: 20px 0 0 0;
 }
 
+#footer a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#footer a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+*/
+
 .fullpage h1 {
     font-size: 3.5em;
+    color: #fff;
+}
+
+.fullpage h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.fullpage h3 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.fullpage h4 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.fullpage h5 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.fullpage h6 {
+    font-size: 1em;
+    color: #fff;
+}
+
+.fullpage li {
+    font-size: 2em;
+    color: #fff;
+}
+
+.fullpage p {
+    font-size: 2em;
+    color: #fff;
 }

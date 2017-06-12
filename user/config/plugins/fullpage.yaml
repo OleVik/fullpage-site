@@ -7,7 +7,7 @@ builtin_css: true
 builtin_js: true
 color_function: '50'
 change_titles: true
-inject_footer: partials/slidefooter.html.twig
+inject_footer: 'partials/slidefooter.html.twig'
 styles:
   -
     background: '#93c0d3'
