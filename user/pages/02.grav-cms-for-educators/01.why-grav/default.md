@@ -1,20 +1,9 @@
 ---
 title: 'Hello, Grav'
 horizontal: true
-styles:
-  -
-      background: '#a1ad36'
-      font-family: 'Helvetica Neue'
-  -
-      background: '#222222'
-      font-family: 'Helvetica Neue'
-  -
-      background: '#222222'
-      font-family: 'Helvetica Neue'
-  -
-      background: '#222222'
-      font-family: 'Helvetica Neue'
 ---
+
+[background=#a1ad36]
 
 ## Why Grav?
 

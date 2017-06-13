@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#fullpage {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+  display: block;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+}
+#fullpage,
+#fullpage > .section,
+#fullpage > .section > .slide:first-of-type {
+  background-color: #222222;
+  display: block;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 100vh;
+}
+/* Fix collapsing margins from H1 */
+#fullpage > .section > .slide:first-of-type {
+  margin: 0;
+  padding-top: 1em;
+}

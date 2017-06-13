@@ -5,6 +5,8 @@ title: Home
 # Grav is Running!
 ## You have installed **Grav** successfully
 
+Want to view the Markdown files used to create the [Grav CMS for Education slides](http://test.hibbittsdesign.org/fullpage-site/grav-cms-for-educators)? Here you go! [https://github.com/paulhibbitts/test-fullpage-site/tree/master/pages](https://github.com/paulhibbitts/test-fullpage-site/tree/master/pages).
+
 Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **antimatter** theme to get you started.
 
 !!! If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).

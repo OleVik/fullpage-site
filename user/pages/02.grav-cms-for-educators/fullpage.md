@@ -1,13 +1,6 @@
 ---
 title: 'Grav CMS for Educators'
 horizontal: true
-styles:
-  -
-      background: '#a1ad36'
-      font-family: 'Helvetica Neue'
-  -
-      background: '#75b6d3'
-      font-family: 'Helvetica Neue'
 fullpage:
     options:
         navigation: true
@@ -15,12 +8,15 @@ fullpage:
             - 'Grav CMS for Educators'
             - 'Why Grav?'
             - 'Getting Up and Running'
+styles: background: '#222222'
 ---
+[background=#a1ad36]
 
 # Grav CMS for Educators
 ##### Flipping the LMS with an Open and Collaborative Web Platform, with Paul Hibbitts
 
 ***
+[background=#75b6d3]
 
 ## Hello, Grav
 * Why Grav?
