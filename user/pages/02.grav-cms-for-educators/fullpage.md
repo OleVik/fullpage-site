@@ -9,6 +9,7 @@ fullpage:
             - 'Why Grav?'
             - 'Getting Up and Running'
 styles: background: '#222222'
+
 ---
 [background=#a1ad36]
 

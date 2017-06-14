@@ -1,33 +1,32 @@
-/* #footer {
+.fullpage #footer {
     bottom: 0px;
 }
 
-#footer {
+.fullpage #footer {
     position: fixed;
-    height: 50px;
+    height: 24px;
     display: block;
     width: 100%;
-    background: #333;
+    background: #000;
     z-index: 9;
     text-align: center;
     color: #f2f2f2;
-    padding: 20px 0 0 0;
+    padding: 8px 0 0 0;
 }
 
-#footer a:link {
+.fullpage #footer a:link {
     color: #FFF;
     text-decoration: none;
 }
-#footer a:visited {
+.fullpage #footer a:visited {
     text-decoration: none;
     color: #FFF;
 }
 
-#footer a:hover {
+.fullpage #footer a:hover {
     text-decoration: underline;
     color: #FFF;
 }
-*/
 
 /*
 .fullpage h1 {
