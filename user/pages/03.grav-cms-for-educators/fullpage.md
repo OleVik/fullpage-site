@@ -1,5 +1,6 @@
 ---
 title: 'Grav CMS for Educators'
+visible: false
 horizontal: true
 fullpage:
     options:
