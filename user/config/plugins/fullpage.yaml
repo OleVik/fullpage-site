@@ -5,58 +5,31 @@ order:
 theme_css: true
 builtin_css: true
 builtin_js: true
-color_function: '50'
+color_function: "50"
 change_titles: true
+inject_footer: ""
 shortcodes: true
 styles:
-  -
-    background: '#222222'
+  - background: "#222222"
 options:
   navigation: false
-  navigationPosition: right
+  navigationPosition: 'right'
   showActiveTooltip: false
   slidesNavigation: false
-  slidesNavPosition: bottom
+  slidesNavPosition: 'bottom'
   css3: true
   autoScrolling: true
   fitToSection: true
   scrollBar: false
   loopTop: false
   loopBottom: false
-  loopHorizontal: false
+  loopHorizontal: true
   touchSensitivity: 15
   keyboardScrolling: true
   animateAnchor: true
   recordHistory: true
   controlArrows: true
   verticalCentered: true
-  sectionSelector: .section
-  slideSelector: .slide
+  sectionSelector: '.section'
+  slideSelector: '.slide'
   lazyLoading: true
-  menu: '#menu'
-  lockAnchors: false
-  scrollingSpeed: 700
-  fitToSectionDelay: 1000
-  easing: easeInOutCubic
-  easingcss3: ease
-  continuousVertical: false
-  continuousHorizontal: false
-  scrollHorizontally: false
-  interlockedSlides: false
-  dragAndMove: false
-  offsetSections: false
-  resetSliders: false
-  fadingEffect: false
-  normalScrollElements: '#element1, .element2'
-  scrollOverflow: false
-  scrollOverflowReset: false
-  normalScrollElementTouchThreshold: 5
-  fixedElements: '#footer'
-  responsiveWidth: 0
-  responsiveHeight: 0
-  responsiveSlides: false
-  parallax: false
-  parallaxOptions:
-    type: reveal
-    percentage: 62
-    property: translate
