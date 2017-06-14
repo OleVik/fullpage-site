@@ -25,6 +25,11 @@ horizontal: true
 
 ***
 
+[plugin:youtube](https://www.youtube.com/watch?v=8yyE-LaAa8Y)
+
+***
+
+
 ## Installation (Local Desktop)
 1. Download and install MAMP ([mamp.info](http://mamp.info))
 1. Download/unzip Grav Workshop Demo Site ([bit.ly/1ZZjstZ​](http://bit.ly/1ZZjstZ​))
@@ -34,3 +39,4 @@ horizontal: true
 1. Enter 'localhost:8888' in Web Browser and choose Grav folder
 1. Create your site administrator account
 1. And you're done!
+
