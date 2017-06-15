@@ -6,9 +6,12 @@ theme_css: true
 builtin_css: true
 builtin_js: true
 color_function: "50"
+header_font: "Verdana,Geneva,sans-serif"
+block_font: "Verdana,Geneva,sans-serif"
 change_titles: true
 inject_footer: ""
 shortcodes: true
+transition: true
 styles:
   - background: "#222222"
 options:
@@ -23,7 +26,7 @@ options:
   scrollBar: false
   loopTop: false
   loopBottom: false
-  loopHorizontal: true
+  loopHorizontal: false
   touchSensitivity: 15
   keyboardScrolling: true
   animateAnchor: true

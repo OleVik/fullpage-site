@@ -4,6 +4,7 @@ horizontal: true
 ---
 
 [background=#a1ad36]
+[color=#FFF]
 
 ## Getting up and Running
 
@@ -39,4 +40,3 @@ horizontal: true
 1. Enter 'localhost:8888' in Web Browser and choose Grav folder
 1. Create your site administrator account
 1. And you're done!
-

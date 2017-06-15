@@ -1,3 +1,22 @@
+# v0.9.5
+## xx-06-2017
+
+1. [](#new)
+    * Add settings for heading font and block-text font
+2. [](#improved)
+    * Blueprints, CSS, and README
+
+# v0.9.4
+## 14-06-2017
+
+1. [](#new)
+    * OnLoad Page-Transition
+2. [](#improved)
+    * Responsive built-in CSS from SCSS
+    * Blueprints and README
+3. [](#bugfix)
+    * Revert to Page's content-method
+
 # v0.9.3
 ## 13-06-2017
 

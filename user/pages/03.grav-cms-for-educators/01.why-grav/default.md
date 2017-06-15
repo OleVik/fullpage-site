@@ -4,6 +4,7 @@ horizontal: true
 ---
 
 [background=#a1ad36]
+[color=#FFF]
 
 ## Why Grav?
 

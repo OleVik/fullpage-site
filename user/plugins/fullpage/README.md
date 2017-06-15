@@ -2,6 +2,8 @@
 
 The **Fullpage** Plugin is for [Grav CMS](http://github.com/getgrav/grav). The [Fullpage](https://github.com/OleVik/grav-plugin-fullpage)-plugin provides a simple way of creating fullscreen slideshows that can be navigated vertically and horizontally, using the [fullPage.js](https://github.com/alvarotrigo/fullPage.js)-library.
 
+At its core the plugin facilitates efficient handling of content for use with the library. You can utilize fullPage.js however you want through custom initialization, and still leverage the plugin's content-handling.
+
 A [demo is available](https://olevik.me/plugins/fullpage/book/), as are docs presented [by the plugin](https://olevik.me/plugins/fullpage/). The [demo-content](https://github.com/OleVik/grav-plugin-fullpage/tree/demo-content)-branch holds copies of the pages used in these two examples.
 
 ## Installation
@@ -82,10 +84,10 @@ fullpage:
 
 The `styles`-property is defined by a list of `property: value`'s and processed by the plugin. If the amount of pages exceed the amount of styles, they will be reused in the order they are defined. If the `background`-property is defined, but `color` is not, the plugin tries to estimate a suitable text-color to apply. The equations available to estimate this color is either `50` or `YIQ`, set by `color_function`.
 
-You can of course also style the plugin using your theme's /css/custom.css-file, by targeting the `.fullpage`-selector which wraps around all of the plugin's content. This behavior can be enabled or disabled with the `theme_css`-setting. All pages have a `data-anchor`-attribute set on their sections, which can be utilized by CSS like this:
+You can of course also style the plugin using your theme's /css/custom.css-file, by targeting the `#fullpage`-selector which wraps around all of the plugin's content. This behavior can be enabled or disabled with the `theme_css`-setting. All pages have a `data-anchor`-attribute set on their sections, which can be utilized by CSS like this:
 
 ```css
-.fullpage [data-anchor="constructing-pages"] {
+#fullpage [data-anchor="constructing-pages"] {
   background: red;
 }
 ```
@@ -101,7 +103,7 @@ If configured with `shortcodes: true` any section or slide can use shortcodes to
 
 If the shortcode is found and applied, it is stripped from the further evaluated content. This method uses regular expressions for speed, and takes precedence over plugin- or page-defined `styles`.
 
-**Note**: The syntax is restricted to `[property=value]`. Quotes or other unexpected characters not conforming to alphanumerics or dashes will make the expression fail to pick up the shortcode. The `property` or `value` must basically conform to the [a-zA-Z0-9-]+ regular expression, separated by an equal-character (`=`) and wrapped in square brackets (`[]`).
+**Note**: The syntax is restricted to `[property=value]`. Quotes or other unexpected characters not conforming to alphanumerics or dashes will make the expression fail to pick up the shortcode. The `property` or `value` must basically conform to the [a-zA-Z0-9-]+ regular expression, separated by an equal-character (`=`) and wrapped in square brackets (`[]`). For testing, use [Regex101](https://regex101.com/r/GlH65o/1).
 
 ### Injecting Twig
 
@@ -115,7 +117,7 @@ Using the `inject_footer`-setting you can append a Twig-template to each section
 }
 ```
 
-You can **currently not** arbitrarily execute Twig within a page's Markdown by enabling it in the FrontMatter with:
+You can also arbitrarily execute Twig within a page's Markdown by enabling it in the FrontMatter with:
 
 ```yaml
 twig_first: true
