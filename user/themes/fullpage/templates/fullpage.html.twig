@@ -13,6 +13,7 @@
     {% do assets.addCss('theme://css/critical.css', {'loading': 'inline'}) %}
     <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
     <link rel="canonical" href="{{ page.url(true, true) }}" />
+    {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
     {{ assets.css()|raw }}
   </head>
   {% endblock head %}
